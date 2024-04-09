@@ -1,0 +1,311 @@
+* body {
+    opacity: 70%;
+}
+.nav {
+    color: #009DD1;
+    background-color: #009DD1;
+}
+#nav-text {
+    color: white;
+    position: relative; top: 20px;
+    position: relative; right: 30px;
+}
+#nav-text:hover {
+    color: black;
+}
+#triggerId {
+    color: white;
+    border: none;
+    position: relative; top: 15px;
+    position: relative; right: 30px;
+    border-radius: 18px;
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+}
+#triggerId:hover {
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.beranda {
+    height: 660px;
+    background-image: linear-gradient(#009DD1, white);
+    background-position: 10px;
+    background-size: 100%;
+}
+.judul {
+    display: flex;
+    color: white;
+    position: absolute; top: 255px;
+    position: absolute; right: 105px;
+    font-size: 75px;
+    font-weight: 600;
+}
+.subjudul-1 {
+    color: white;
+    line-height: 50px;
+    position: absolute; top: 345px;
+    position: absolute; right: 105px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.subjudul-2 {
+    color: white;
+    line-height: 50px;
+    position: absolute; top: 400px;
+    position: absolute; right: 105px;
+    margin-left: 77px;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.deskripsi {
+    margin-right: 105;
+    color: white;
+    position: absolute; top: 455px;
+    position: absolute; right: 105px;
+    text-align: end;
+    margin-left: 82px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+.button {
+    text-decoration: none;
+    font-size: 16px;
+}
+#linkwhatsapp {
+    position: absolute; top: 580px;
+    position: absolute; left: 270px;
+    font-size: 13px;
+    padding: 10px 32px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#linkapp {
+    position: absolute; top: 580px;
+    position: absolute; left: 120px;
+    font-size: 13px;
+    padding: 10px 32px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+@keyframes bounce {
+    0% { transform: scale(1, 1); }
+    50% { transform: scale(1.1, 1.1); }
+    100% { transform: scale(1, 1); }
+}
+#linkwhatsapp:hover {
+    color: black;
+    animation: bounce 0.5s ease-in-out;
+}
+#linkapp:hover {
+    color: black;
+    animation: bounce 0.5s ease-in-out;
+}
+.button #linkwhatsapp {
+    margin-left: 80px;
+    color: #009DD1;
+    background-color: white;
+}
+.button #linkapp {
+    color: #009DD1;
+    margin-left: 20px;
+    background-color: white;
+}
+@media (max-width: 480px) { 
+    .beranda .judul {
+        color: black;
+        position: absolute; top: 165px;
+        margin-left: 72px;
+        font-size: 60px;
+        font-weight: 600;
+        letter-spacing: 0px;
+    }
+}
+#layanan-kami {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    background-color: white;
+    color: #009DD1;
+    padding: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.lingkaran1 {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: #009DD1;
+    margin: 70px;
+    margin-left: 170px;
+    position: absolute; top: 800px;
+    position: absolute; left: -50px;
+}
+.lingkaran2 {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: #009DD1;
+    margin: 70px;
+    margin-left: 170px;
+    position: absolute; top: 1080px;
+    position: absolute; left: -50px;
+}
+.lingkaran3 {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: #009DD1;
+    margin: 70px;
+    margin-left: 170px;
+    position: absolute; top: 1360px;
+    position: absolute; left: -50px;
+}
+.layanan {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 70px;
+    margin-left: 250px;
+    margin-bottom: 20px;
+    margin-top: 180px;
+    padding-right: 120px;
+    position: relative; top: -70px;
+    position: relative; left: 70px;
+    letter-spacing: -1px;
+    
+}
+#judul-pelayanan {
+    font-size: 27px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+#deskripsi-pelayanan {
+    font-family: "Poppins", sans-serif;
+}
+.kelebihan-atas {
+    margin-left: 300px;
+    padding-left: 200px;
+    margin-top: 75px;
+    padding-top: 75px;
+}
+#judul-kelebihan-atas {
+    color: #009DD1;
+    font-family: "Poppins", sans-serif;
+}
+#subjudul-kelebihan-atas {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+#deskripsi-kelebihan-atas {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-family: "Poppins", sans-serif;
+}
+#kelebihan-atas {
+    margin-left: 300px;
+    padding-left: 230px;
+    font-weight: 600;
+    padding-top: 5px;
+    font-family: "Poppins", sans-serif;
+}
+.lingkaran-kelebihan1 {
+    height: 14px;
+    width: 14px;
+    border-radius: 40%;
+    background-color: #009DD1;
+    margin-top: 100px;
+    margin-left: 505px;
+    margin-top: -77px;
+}
+.lingkaran-kelebihan2 {
+    height: 14px;
+    width: 14px;
+    border-radius: 40%;
+    background-color: #009DD1;
+    margin-top: 100px;
+    margin-left: 505px;
+    margin-top: 15px;
+}
+.lingkaran-kelebihan3 {
+    height: 14px;
+    width: 14px;
+    border-radius: 40%;
+    background-color: #009DD1;
+    margin-top: 100px;
+    margin-left: 505px;
+    margin-top: 15px;
+}
+.kelebihan-bawah {
+    margin-left: 150px;
+    padding-left: -200px;
+    margin-top: 105px;
+    padding-top: 105px;
+}
+#judul-kelebihan-bawah {
+    color: #009DD1;
+    font-family: "Poppins", sans-serif;
+}
+#subjudul-kelebihan-bawah {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+#deskripsi-kelebihan-bawah {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-family: "Poppins", sans-serif;
+}
+#kelebihan-bawah {
+    margin-left: -50px;
+    padding-left: 230px;
+    font-weight: 600;
+    padding-top: 5px;
+    font-family: "Poppins", sans-serif;
+}
+.lingkaran-kelebihan4 {
+    height: 14px;
+    width: 14px;
+    border-radius: 40%;
+    background-color: #009DD1;
+    margin-top: 100px;
+    margin-left: 155px;
+    margin-top: -77px;
+}
+.lingkaran-kelebihan5 {
+    height: 14px;
+    width: 14px;
+    border-radius: 40%;
+    background-color: #009DD1;
+    margin-top: 100px;
+    margin-left: 155px;
+    margin-top: 15px;
+}
+.lingkaran-kelebihan6 {
+    height: 14px;
+    width: 14px;
+    border-radius: 40%;
+    background-color: #009DD1;
+    margin-top: 100px;
+    margin-left: 155px;
+    margin-top: 15px;
+}
+.beranda-benefit {
+    height: 660px;
+    background-color: #009DD1;
+    margin-top: 200px;
+}
+#benefit-kami {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
